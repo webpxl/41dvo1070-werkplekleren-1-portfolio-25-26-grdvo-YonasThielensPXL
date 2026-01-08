@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #fff;
+    height: 100vh;
+}
+
+.header {
+    background: linear-gradient(90deg, orange 85%, black 15%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    position: relative;
+    padding: 20px;
+}
+
+/* Flexbox voor kaartjes naast elkaar */
+#cards-container {
+    display: flex;
+    gap: 15px;         /* ruimte tussen de kaartjes */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.card {
+    background-color: #000;
+    border-radius: 12px;
+    padding: 15px 20px;
+    width: 250px;
+    color: #fff;
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+}
+
+.card h2 {
+    color: orange;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+
+.card a {
+    color: #fff;
+    text-decoration: underline;
+}
