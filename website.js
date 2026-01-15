@@ -56,15 +56,3 @@ loopbaan.forEach((item) => {
     `;
     lijst.appendChild(li);
 });
-
-<script>
-function toonContent(id) {
-    // Eerst alle teksten verbergen
-    document.querySelectorAll('.portfolio-content').forEach(div => {
-        div.style.display = 'none';
-    });
-    
-    // Dan de gekozen tekst laten zien
-    document.getElementById(id).style.display = 'block';
-}
-</script>
