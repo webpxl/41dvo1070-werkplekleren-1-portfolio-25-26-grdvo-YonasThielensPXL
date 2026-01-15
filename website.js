@@ -1,24 +1,24 @@
 const profiel = document.querySelector("#profielfoto");
-profiel.src = "images/profile.jpg";
+profiel.src = "profile.jpg";
 profiel.alt = "Yonas Thielens";
 
 const uiImg = document.querySelector("#img-ui");
-uiImg.src = "images/ui-design.jpg";
+uiImg.src = "ui-design.jpg";
 uiImg.alt = "UI Design Project";
 uiImg.style.width = "600px";
 
 const werkpleklerenImg = document.querySelector("#img-werkplekleren");
-werkpleklerenImg.src = "images/cv.png";
+werkpleklerenImg.src = "cv.png";
 werkpleklerenImg.alt = "Werkplekleren Project";
 werkpleklerenImg.style.width = "400px";
 
 const socialImg = document.querySelector("#img-social");
-socialImg.src = "images/socials.png";
+socialImg.src = "socials.png";
 socialImg.alt = "Be Urban Social Media";
 socialImg.style.width = "222px";
 
 const dansImg = document.querySelector("#img-dansshow");
-dansImg.src = "images/spotlight.png";
+dansImg.src = "spotlight.png";
 dansImg.alt = "Dansshow Organisatie";
 dansImg.style.width = "222px";
 
