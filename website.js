@@ -37,6 +37,7 @@ const loopbaan = [
 ];
 
 const motivatieContainer = document.querySelector("#motivatie-box");
+
 motivatie.forEach((tekst) => {
     const p = document.createElement("p");
     p.innerText = tekst;
@@ -53,6 +54,5 @@ loopbaan.forEach((item) => {
         <strong>${item.jaar}</strong>
         <span>${item.event}</span>
     `;
-
     lijst.appendChild(li);
 });
