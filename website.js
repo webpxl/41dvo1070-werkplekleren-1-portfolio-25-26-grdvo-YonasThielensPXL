@@ -31,7 +31,7 @@ const motivatie = [
 const loopbaan = [
     {jaar: "5 jaar", event: "begonnen met dansen" },
     {jaar: "10 jaar", event: "deelname aan musical Kadanza Together (Ketnet)" },
-    {jaar: "12 jaar", event: "wedstrijddansen in ene team" },
+    {jaar: "12 jaar", event: "wedstrijddansen in een team" },
     {jaar: "16 jaar", event: "start als dansleerkracht" },
     {jaar: "19 jaar", event: "bestuurslid van dansschool" }
 ];
