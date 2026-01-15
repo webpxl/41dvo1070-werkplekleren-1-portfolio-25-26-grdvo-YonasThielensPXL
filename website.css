@@ -121,3 +121,7 @@ footer { background: #111; color: white; padding: 40px 0; text-align: center; }
     background-color: #e86f00;
     transform: translateY(-2px);
 }
+
+.privacy-link, .portfolio-link {
+    margin: 5px;
+} 
